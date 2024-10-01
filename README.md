@@ -15,7 +15,7 @@
 ## 🚀 How to Use
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/Multi-DNS-Switcher.git
+    git clone https://github.com/AH-S-K/Multi-DNS-Switcher.git
     ```
 2. Go to the `bat_files` folder and choose the appropriate `.bat` file for your desired DNS configuration.
 3. Double-click the `.bat` file to execute the script with admin privileges.
