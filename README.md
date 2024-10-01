@@ -8,25 +8,30 @@
 - <span style="font-weight: bold;">Active Interface Detection:</span> Identifies the active network interface for DNS changes.
 - <span style="font-weight: bold;">Reset to Default:</span> Resets DNS to default (DHCP) if the specified DNS addresses are already set.
 
-## 📁 Files Included
-- **`dns_switcher_<name>.py`**: Python scripts for different DNS configurations (e.g., `dns_switcher_google.py`, `dns_switcher_custom.py`).
-- **Batch Files (`.bat`)**: Batch files to execute the corresponding DNS scripts with admin privileges.
+## 📁 Directory Structure
+- **`dns_scripts/`**: Contains Python scripts for different DNS configurations. Each script is used to set a specific DNS configuration.
+- **`bat_files/`**: Contains `.bat` files for each DNS configuration that runs the corresponding Python script with admin privileges.
 
 ## 🚀 How to Use
 1. Clone the repository:
     ```bash
     git clone https://github.com/yourusername/Multi-DNS-Switcher.git
     ```
-2. Choose the appropriate `.bat` file for your desired DNS configuration.
+2. Go to the `bat_files` folder and choose the appropriate `.bat` file for your desired DNS configuration.
 3. Double-click the `.bat` file to execute the script with admin privileges.
 
 > **Note:** Make sure you run the batch files with administrator privileges to ensure DNS changes are applied successfully.
 
-## 📝 Example Configurations
-| **Configuration** | **Preferred DNS** | **Alternative DNS** | **Script**               | **Batch File**         |
-|-------------------|-------------------|---------------------|--------------------------|------------------------|
-| Google DNS        | 8.8.8.8           | 8.8.4.4             | `dns_switcher_google.py` | `set_google_dns.bat`   |
-| Custom DNS        | 10.202.10.202     | 10.202.10.102       | `dns_switcher_custom.py` | `set_custom_dns.bat`   |
+## 📝 Available DNS Configurations
+| **Configuration** | **Preferred DNS** | **Alternative DNS** | **Script**                   | **Batch File**               |
+|-------------------|-------------------|---------------------|------------------------------|------------------------------|
+| Google DNS        | 8.8.8.8           | 8.8.4.4             | `dns_scripts/google_dns.py`  | `bat_files/set_google_dns.bat` |
+| Cloudflare DNS    | 1.1.1.1           | 1.0.0.1             | `dns_scripts/cloudflare_dns.py` | `bat_files/set_cloudflare_dns.bat` |
+| AdGuard DNS       | 94.140.14.14      | 94.140.15.15        | `dns_scripts/adguard_dns.py` | `bat_files/set_adguard_dns.bat` |
+| OpenDNS           | 208.67.222.222    | 208.67.220.220      | `dns_scripts/opendns.py`     | `bat_files/set_opendns.bat`  |
+| Shecan DNS        | 178.22.122.100    | 185.51.200.2        | `dns_scripts/shecan_dns.py`  | `bat_files/set_shecan_dns.bat` |
+| 403.online        | 10.202.10.202     | 10.202.10.102       | `dns_scripts/403_online.py`  | `bat_files/set_403_online.bat` |
+| Sharif.edu        | 172.26.146.34     | 172.26.146.35       | `dns_scripts/sharif_edu.py`  | `bat_files/set_sharif_edu.bat` |
 
 ## 🔧 Prerequisites
 - 🐍 **Python** installed on your system.
