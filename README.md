@@ -25,13 +25,13 @@
 ## 📝 Available DNS Configurations
 | **Configuration** | **Preferred DNS** | **Alternative DNS** | **Script**                   | **Batch File**               |
 |-------------------|-------------------|---------------------|------------------------------|------------------------------|
-| Google DNS        | 8.8.8.8           | 8.8.4.4             | `dns_scripts/google_dns.py`  | `bat_files/set_google_dns.bat` |
-| Cloudflare DNS    | 1.1.1.1           | 1.0.0.1             | `dns_scripts/cloudflare_dns.py` | `bat_files/set_cloudflare_dns.bat` |
-| AdGuard DNS       | 94.140.14.14      | 94.140.15.15        | `dns_scripts/adguard_dns.py` | `bat_files/set_adguard_dns.bat` |
-| OpenDNS           | 208.67.222.222    | 208.67.220.220      | `dns_scripts/opendns.py`     | `bat_files/set_opendns.bat`  |
-| Shecan DNS        | 178.22.122.100    | 185.51.200.2        | `dns_scripts/shecan_dns.py`  | `bat_files/set_shecan_dns.bat` |
-| 403.online        | 10.202.10.202     | 10.202.10.102       | `dns_scripts/403_online.py`  | `bat_files/set_403_online.bat` |
-| Sharif.edu        | 172.26.146.34     | 172.26.146.35       | `dns_scripts/sharif_edu.py`  | `bat_files/set_sharif_edu.bat` |
+| Google DNS        | 8.8.8.8           | 8.8.4.4             | `dns_scripts/dns_switcher_google.py`  | `bat_files/set_google_dns.bat` |
+| Cloudflare DNS    | 1.1.1.1           | 1.0.0.1             | `dns_scripts/dns_switcher_cloudflare.py` | `bat_files/set_cloudflare_dns.bat` |
+| AdGuard DNS       | 94.140.14.14      | 94.140.15.15        | `dns_scripts/dns_switcher_adGuard.py` | `bat_files/set_adguard_dns.bat` |
+| OpenDNS           | 208.67.222.222    | 208.67.220.220      | `dns_scripts/dns_switcher_OpenDNS.py`     | `bat_files/set_OpenDNS.bat`  |
+| Shecan DNS        | 178.22.122.100    | 185.51.200.2        | `dns_scripts/dns_switcher_shecan.py`  | `bat_files/set_shecan_dns.bat` |
+| 403.online        | 10.202.10.202     | 10.202.10.102       | `dns_scripts/dns_switcher_403.online.py`  | `bat_files/set_403.online.bat` |
+| Sharif.edu        | 172.26.146.34     | 172.26.146.35       | `dns_scripts/dns_switcher_sharif.edu.py`  | `bat_files/set_sharif.edu.bat` |
 
 ## 🔧 Prerequisites
 - 🐍 **Python** installed on your system.
